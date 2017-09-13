@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Formulários </title>
+	</head>
+	<body>
+		<h3> Formulários </h3>
+		<form action="cadastro.py" method="POST">
+			<label> Digite o nome: </label>
+			<input type="text" name="nome_user" id="n_user" maxlength="30" placeholder="Digite seu nome" size="" required="true"> </br>
+			
+			<label> Senha: </label>
+			<input type="password" name="senha_user" id="s_user" maxlength="10" required="true"> </br>
+			
+			<label> Observações: </label> </br>
+			<textarea placeholder="Digite algo"> </textarea> </br>
+			
+			<label> Estado: </label> </br>
+			<select>
+				<option value="SP"> São Paulo </option>
+				<option value="RJ"> Rio de Janeiro </option>
+				<option value="SC"> Santa Catarina </option>
+				<option value="MG"> Minas Gerais </option>
+				<option value="BA"> Bahia </option>
+			</select> </br>
+			
+			<label> Selecione as Disciplinas: </label></br>
+			<input type="checkbox" value="TecW"> TecWeb </br>
+			<input type="checkbox" value="DevOp"> Devops </br>
+			<input type="checkbox" value="LP"> Linguagem de Programção II </br>
+			<input type="checkbox" value="SQL"> SQL </br>
+			
+			<label> Selecione a Disciplina preferida: </label></br>
+			<input type="radio" name="opcao" value="TecW"> TecWeb </br>
+			<input type="radio" name="opcao" value="DevOp"> Devops </br>
+			<input type="radio" name="opcao" value="LP"> Linguagem de Programção II </br>
+			<input type="radio" name="opcao" value="SQL"> SQL </br>
+			
+			</br><input type="submit">	
+			</br><input type="reset">
+			</br><button onclick=""> Botãoaaads </button>
+		</form>
+	</body>
+</html>
